@@ -21,6 +21,10 @@ Bem-vindo ao meu portfólio de desenvolvedor front-end e designer UX/UI! Aqui, v
 1. Clone o repositório para sua máquina local.
 2. Abra o arquivo `index.html` em seu navegador para visualizar o portfólio.
 
+## Acesso
+
+O portifólio pode ser acessado no seguinte [link](https://lucaswenderson.github.io/portfolio)
+
 ## Feedback
 
 Se você tiver algum feedback ou sugestão, fique à vontade para abrir uma issue ou enviar uma pull request!
