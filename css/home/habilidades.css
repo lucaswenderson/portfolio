@@ -51,6 +51,30 @@
   position: relative;
 }
 
+.tech-name {
+  display: inline-block;
+  position: absolute;
+
+  top: 100%;
+  left: 0%;
+  transform: translateY(10px) translateX(-50%);
+
+  opacity: 0;
+  transform: translateY(-10px);
+  text-align: center;
+  margin-top: 10px;
+  background-color: #7E57C2;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 20px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.icon-container:hover .tech-name {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 
 .margin{
