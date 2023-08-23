@@ -137,7 +137,7 @@
 }
 @media (max-width: 600px) {
   #header {
-    background: var(--cor-bg-1);
+    background: #FFF;
   }
   #logo-grande {
     display: none;

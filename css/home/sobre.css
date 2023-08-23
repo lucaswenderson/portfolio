@@ -2,7 +2,7 @@
   max-width: 1200px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 30px;
   margin: 0 auto;
 }
@@ -29,7 +29,7 @@
 .perfil {
   max-width: 588px;
   object-fit: scale-down;
-  margin-left: 40px;
+  margin: 40px 40px 40px 40px;
 }
 
 .sobre-conteudo p {
