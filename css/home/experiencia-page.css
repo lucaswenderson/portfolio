@@ -50,7 +50,6 @@
 
 .btn-container {
   display: flex;
-
   justify-content: flex-start;
 }
 
@@ -99,6 +98,11 @@
   .projeto img {
     margin-bottom: 32px;
   }
+  .btn-container {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 50%;
+  }
 }
 
 @media (max-width: 600px) {
@@ -119,10 +123,14 @@
     width: auto;
   }
   .projeto a {
-    padding: 12px 20px;
     font-size: 14px;
   }
   .proj-portifolio {
     margin-bottom: 100px;
+  }
+  .btn-container {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 80%;
   }
 }
