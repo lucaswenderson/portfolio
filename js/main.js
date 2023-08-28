@@ -92,4 +92,21 @@ document.getElementById('loadMoreBtn').addEventListener('click', function() {
   }
 });
 
+document.addEventListener('click', function(event) {
+  var menu = document.getElementById('menu');
+  var btnMobile = document.getElementById('btn-mobile');
+  var nav = document.getElementById('nav');
+
+  // Verifica se o menu está ativo (aberto)
+  var isActive = nav.classList.contains('active');
+
+  // Verifica se o clique foi fora do menu e fora do botão que abre o menu
+  var isClickOutside = !menu.contains(event.target) && !btnMobile.contains(event.target);
+
+  if (isActive && isClickOutside) {
+      // Fecha o menu removendo a classe 'active'
+      nav.classList.remove('active');
+  }
+});
+
 

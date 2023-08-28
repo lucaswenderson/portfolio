@@ -89,6 +89,7 @@
     height: 240px;
     visibility: visible;
     overflow: scroll ;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.2);
   }
   #menu a {
     display: block;
@@ -138,6 +139,7 @@
 @media (max-width: 600px) {
   #header {
     background: #FFF;
+    padding: 20px 0px;
   }
   #logo-grande {
     display: none;

@@ -106,6 +106,10 @@
 }
 
 @media (max-width: 600px) {
+  .experiencia-page-container {
+    max-width: 100%;
+    margin: 10px auto;
+  }
   .proj-portifolio,
   .proj-rbb {
     margin: 0 auto 58px auto;
